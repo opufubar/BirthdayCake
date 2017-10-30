@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtomScript : MonoBehaviour {
-
+	// ボタンを押すとシーンがmain2に切り替わる
 	public void SceneLoad(){
-		Application.LoadLevel("main3");
+		Application.LoadLevel("main2");
 	}
 }
